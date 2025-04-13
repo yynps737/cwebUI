@@ -1,0 +1,40 @@
+2025-04-13 21:29:10,328 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.23.75:5000
+2025-04-13 21:29:10,328 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 21:29:10,331 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 21:29:10,604 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 21:29:10,643 - werkzeug - INFO -  * Debugger PIN: 583-586-854
+2025-04-13 21:29:18,459 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:29:18] "GET / HTTP/1.1" 200 -
+2025-04-13 21:29:19,760 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:29:19] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 21:29:19,846 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:29:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 21:29:21,974 - __main__ - INFO - 收到问题: 你好...
+2025-04-13 21:29:34,879 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2025-04-13 21:29:34,879 - __main__ - ERROR - API调用失败: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}}
+2025-04-13 21:29:34,881 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:29:34] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 21:29:34,926 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:29:34] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 21:38:47,829 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.23.75:5000
+2025-04-13 21:38:47,829 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 21:38:47,830 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 21:38:47,557 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 21:38:47,558 - werkzeug - INFO -  * Debugger PIN: 583-586-854
+2025-04-13 21:38:48,805 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:38:48] "GET / HTTP/1.1" 200 -
+2025-04-13 21:38:49,193 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:38:49] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 21:40:14,274 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.23.75:5000
+2025-04-13 21:40:14,274 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 21:40:14,274 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 21:40:14,556 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 21:40:14,557 - werkzeug - INFO -  * Debugger PIN: 583-586-854
+2025-04-13 21:40:16,143 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:40:16] "GET / HTTP/1.1" 200 -
+2025-04-13 21:40:16,210 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:40:16] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 21:40:23,157 - __main__ - INFO - 收到问题: 你好啊...
+2025-04-13 21:40:41,454 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-04-13 21:40:41,459 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:40:41] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 21:40:41,500 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:40:41] "GET /api/history HTTP/1.1" 200 -
