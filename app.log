@@ -38,3 +38,149 @@
 2025-04-13 21:40:41,454 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
 2025-04-13 21:40:41,459 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:40:41] "POST /api/ask HTTP/1.1" 200 -
 2025-04-13 21:40:41,500 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:40:41] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 21:53:24,134 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.23.75:5000
+2025-04-13 21:53:24,134 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 21:53:24,134 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 21:53:24,440 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 21:53:24,441 - werkzeug - INFO -  * Debugger PIN: 583-586-854
+2025-04-13 21:53:26,626 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:53:26] "GET / HTTP/1.1" 200 -
+2025-04-13 21:53:26,696 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:53:26] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 21:53:31,018 - __main__ - INFO - 收到问题: 你是谁...
+2025-04-13 21:53:52,267 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-04-13 21:53:52,270 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:53:52] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 21:53:52,338 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 21:53:52] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:06:28,614 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.23.75:5000
+2025-04-13 22:06:28,614 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 22:06:28,615 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 22:06:28,896 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 22:06:28,897 - werkzeug - INFO -  * Debugger PIN: 583-586-854
+2025-04-13 22:06:30,655 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:06:30] "GET / HTTP/1.1" 200 -
+2025-04-13 22:06:30,711 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:06:30] "GET /api/health HTTP/1.1" 200 -
+2025-04-13 22:06:30,731 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:06:30] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:06:38,274 - __main__ - INFO - 收到问题: 你好啊...
+2025-04-13 22:06:38,331 - __main__ - INFO - 思考模式已启用，长度为: 16000
+2025-04-13 22:06:38,332 - __main__ - INFO - 发送请求到Claude API...
+2025-04-13 22:06:38,332 - __main__ - ERROR - API调用失败: Messages.create() got an unexpected keyword argument 'max_thinking_length'
+2025-04-13 22:06:38,332 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:06:38] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 22:06:38,380 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:06:38] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:06:42,271 - __main__ - INFO - 收到问题: 你好啊...
+2025-04-13 22:06:42,306 - __main__ - INFO - 思考模式已启用，长度为: 16000
+2025-04-13 22:06:42,306 - __main__ - INFO - 发送请求到Claude API...
+2025-04-13 22:06:42,306 - __main__ - ERROR - API调用失败: Messages.create() got an unexpected keyword argument 'max_thinking_length'
+2025-04-13 22:06:42,307 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:06:42] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 22:06:42,375 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:06:42] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:07:30,792 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.23.75:5000
+2025-04-13 22:07:30,793 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 22:07:30,793 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 22:07:31,078 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 22:07:31,078 - werkzeug - INFO -  * Debugger PIN: 583-586-854
+2025-04-13 22:07:32,100 - werkzeug - INFO - 172.30.16.1 - - [13/Apr/2025 22:07:32] "GET / HTTP/1.1" 200 -
+2025-04-13 22:07:33,458 - werkzeug - INFO - 172.30.16.1 - - [13/Apr/2025 22:07:33] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:07:33,459 - werkzeug - INFO - 172.30.16.1 - - [13/Apr/2025 22:07:33] "GET /api/health HTTP/1.1" 200 -
+2025-04-13 22:07:33,508 - werkzeug - INFO - 172.30.16.1 - - [13/Apr/2025 22:07:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 22:07:35,493 - __main__ - INFO - 收到问题: 1...
+2025-04-13 22:07:35,544 - __main__ - INFO - 思考模式已启用，长度为: 16000
+2025-04-13 22:07:35,544 - __main__ - INFO - 发送请求到Claude API...
+2025-04-13 22:07:35,544 - __main__ - ERROR - API调用失败: Messages.create() got an unexpected keyword argument 'max_thinking_length'
+2025-04-13 22:07:35,544 - werkzeug - INFO - 172.30.16.1 - - [13/Apr/2025 22:07:35] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 22:07:35,566 - werkzeug - INFO - 172.30.16.1 - - [13/Apr/2025 22:07:35] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:07:38,305 - __main__ - INFO - 收到问题: 1...
+2025-04-13 22:07:38,341 - __main__ - INFO - 思考模式未启用或不支持
+2025-04-13 22:07:38,341 - __main__ - INFO - 发送请求到Claude API...
+2025-04-13 22:08:10,752 - __main__ - INFO - 收到问题: 你好啊...
+2025-04-13 22:08:10,794 - __main__ - INFO - 思考模式已启用，长度为: 16000
+2025-04-13 22:08:10,795 - __main__ - INFO - 发送请求到Claude API...
+2025-04-13 22:08:10,795 - __main__ - ERROR - API调用失败: Messages.create() got an unexpected keyword argument 'max_thinking_length'
+2025-04-13 22:08:10,795 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:08:10] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 22:08:10,826 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:08:10] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:08:16,103 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-04-13 22:08:16,116 - __main__ - INFO - 成功收到Claude API响应
+2025-04-13 22:08:16,117 - werkzeug - INFO - 172.30.16.1 - - [13/Apr/2025 22:08:16] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 22:08:16,171 - werkzeug - INFO - 172.30.16.1 - - [13/Apr/2025 22:08:16] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:17:43,702 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.23.75:5000
+2025-04-13 22:17:43,703 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 22:17:43,704 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 22:17:43,992 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 22:17:43,994 - werkzeug - INFO -  * Debugger PIN: 583-586-854
+2025-04-13 22:17:45,468 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:17:45] "GET / HTTP/1.1" 200 -
+2025-04-13 22:17:45,528 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:17:45] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:17:45,546 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:17:45] "GET /api/health HTTP/1.1" 200 -
+2025-04-13 22:17:49,315 - __main__ - INFO - 收到问题: 你好...
+2025-04-13 22:17:49,372 - __main__ - INFO - 思考模式已启用
+2025-04-13 22:17:49,372 - __main__ - INFO - 发送请求到Claude API...
+2025-04-13 22:18:00,387 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2025-04-13 22:18:00,387 - __main__ - INFO - 成功收到Claude API响应
+2025-04-13 22:18:00,388 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:18:00] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 22:18:00,492 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:18:00] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:18:05,581 - __main__ - INFO - 收到问题: 你好？...
+2025-04-13 22:18:05,617 - __main__ - INFO - 思考模式已启用
+2025-04-13 22:18:05,617 - __main__ - INFO - 发送请求到Claude API...
+2025-04-13 22:18:18,566 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2025-04-13 22:18:18,566 - __main__ - INFO - 成功收到Claude API响应
+2025-04-13 22:18:18,568 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:18:18] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 22:18:18,645 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:18:18] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:20:40,792 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.23.75:5000
+2025-04-13 22:20:40,792 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 22:20:40,792 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 22:20:41,084 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 22:20:41,084 - werkzeug - INFO -  * Debugger PIN: 583-586-854
+2025-04-13 22:20:42,551 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:20:42] "GET / HTTP/1.1" 200 -
+2025-04-13 22:20:42,626 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:20:42] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:20:42,647 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:20:42] "GET /api/health HTTP/1.1" 200 -
+2025-04-13 22:20:44,090 - __main__ - INFO - 收到问题: 你好...
+2025-04-13 22:20:44,090 - __main__ - INFO - 思考模式已启用，使用anthropic-beta头
+2025-04-13 22:20:44,090 - __main__ - INFO - 发送请求到Claude API...
+2025-04-13 22:20:56,982 - __main__ - ERROR - API错误: 400 - {"type":"error","error":{"type":"invalid_request_error","message":"Unexpected value(s) `thinking-v2` for the `anthropic-beta` header. Please consult our documentation at docs.anthropic.com or try again without the header."}}
+2025-04-13 22:20:56,983 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:20:56] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 22:20:57,029 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:20:57] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:21:41,174 - __main__ - INFO - 收到问题: 你好...
+2025-04-13 22:21:41,174 - __main__ - INFO - 思考模式未启用或不支持
+2025-04-13 22:21:41,174 - __main__ - INFO - 发送请求到Claude API...
+2025-04-13 22:22:01,580 - __main__ - INFO - 成功收到Claude API响应
+2025-04-13 22:22:01,581 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:22:01] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 22:22:01,611 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:22:01] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:22:23,960 - __main__ - INFO - 收到问题: """
+编程助手服务 - 基于Anthropic Claude API
+功能：处理编程问题，调用Claude API获取解答
+支持GitHub代码上传和本地文件上传
+支持Claude 3.7 Sonn...
+2025-04-13 22:22:23,960 - __main__ - INFO - 思考模式未启用或不支持
+2025-04-13 22:22:23,960 - __main__ - INFO - 发送请求到Claude API...
+2025-04-13 22:23:28,516 - __main__ - INFO - 成功收到Claude API响应
+2025-04-13 22:23:28,522 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:23:28] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 22:23:28,760 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:23:28] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:23:29,173 - werkzeug - INFO -  * Detected change in '/home/kkb/PycharmProjects/claudeWeb/app.py', reloading
+2025-04-13 22:23:29,227 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 22:23:29,563 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 22:23:29,563 - werkzeug - INFO -  * Debugger PIN: 583-586-854
+2025-04-13 22:23:31,117 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.23.75:5000
+2025-04-13 22:23:31,117 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 22:23:31,118 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 22:23:31,413 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 22:23:31,414 - werkzeug - INFO -  * Debugger PIN: 583-586-854
+2025-04-13 22:23:31,819 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:23:31] "GET / HTTP/1.1" 200 -
+2025-04-13 22:23:31,894 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:23:31] "GET /api/history HTTP/1.1" 200 -
+2025-04-13 22:23:31,911 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:23:31] "GET /api/health HTTP/1.1" 200 -
+2025-04-13 22:23:34,752 - __main__ - INFO - 收到问题: 1...
+2025-04-13 22:23:34,799 - __main__ - INFO - 思考模式已启用，使用思考系统提示
+2025-04-13 22:23:57,309 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-04-13 22:23:57,313 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:23:57] "POST /api/ask HTTP/1.1" 200 -
+2025-04-13 22:23:57,396 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 22:23:57] "GET /api/history HTTP/1.1" 200 -
